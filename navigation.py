@@ -2,7 +2,7 @@
 A program to move conveniently through .json object.
 '''
 import json
-import doctest
+
 
 def get_data(path_to_file:str = 'info.json') -> dict:
     """
@@ -118,5 +118,4 @@ def main():
 
 
 if __name__ == '__main__':
-    #main()
-    doctest.testmod()
+    main()
