@@ -1,6 +1,7 @@
 # json_analysis_TwitterAPI
 A tool for navigating through .json object, obtained through Twitter API.
-navigation.py - main module for navigation.
+navigation.py is a main module for navigation.
+By default, it consumes data from info.json.
 To start the program, run navigate.py
 To end the program, type "Ctrl + C"
 The example of the execution:
