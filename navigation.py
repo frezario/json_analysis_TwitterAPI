@@ -69,7 +69,7 @@ def proceed(iterative):
         if idx == '..':
             return
     else:
-        print('To return on the highest, press Enter.')
+        print('To return to the highest level, press Enter.')
         input('>>> ')
         return
     if isinstance(iterative, dict):
@@ -110,7 +110,7 @@ def main():
     print('------------------------------------------------------------')
     print('|             To navigate through dictionary,              |')
     print('|             follow the messages in console.              |')
-    print('|   If you want to return to the level above, type "..".   |')
+    print('|  If you want to return to the highest level, type "..".  |')
     print('------------------------------------------------------------')
     while True:
         print('You\'re on the hishest level.')
